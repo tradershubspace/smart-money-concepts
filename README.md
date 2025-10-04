@@ -134,6 +134,8 @@ time_frame: str - the time frame to get the previous high and low 15m, 1H, 4H, 1
 returns:<br>
 PreviousHigh = the previous high<br>
 PreviousLow = the previous low<br>
+BrokenHigh = 1 once price has broken the previous high of the timeframe, 0 otherwise<br>
+BrokenLow = 1 once price has broken the previous low of the timeframe, 0 otherwise<br>
 
 ### Sessions
 
@@ -180,7 +182,7 @@ This method will hide the credit message when you first import the library.
 
 ## Contributing
 
-Please feel free to contribute to the project. By creating your own indicators or improving the existing ones. If you are stuggling to find something to do then please check out the issues tab for requested changes.
+Please feel free to contribute to the project. By creating your own indicators or improving the existing ones. If you are struggling to find something to do then please check out the issues tab for requested changes.
 
 1. Fork it (https://github.com/joshyattridge/smartmoneyconcepts/fork).
 2. Study how it's implemented.
